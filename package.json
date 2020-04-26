@@ -1,0 +1,27 @@
+{
+  "name": "vdu",
+  "version": "1.0.0",
+  "description": "Video Utility CLI Tool",
+  "bin": {
+    "vdu": "./index.js"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/selcher/vdu"
+  },
+  "keywords": "cli, video",
+  "author": "Selcher <selcher123@gmail.com> (http://selcher.github.io)",
+  "license": "MIT",
+  "preferGlobal": true,
+  "dependencies": {
+    "chalk": "3.0.0",
+    "commander": "4.0.0",
+    "fluent-ffmpeg": "2.1.2",
+    "log-symbols": "3.0.0"
+  }
+}
